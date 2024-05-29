@@ -16,7 +16,7 @@ function DeletarCategoria() {
     try {
       await buscar(`/categorias/${id}`, setCategoria);
     } catch (error: any) {
-      alert("Tema não encontrado!");
+      alert("Categoria não encontrado!");
     }
   }
 
@@ -51,7 +51,7 @@ function DeletarCategoria() {
       <p className="text-center font-semibold mb-4">Você tem certeza de que deseja apagar a categoria a seguir?</p>
       <div className="border flex flex-col rounded-2xl overflow-hidden justify-between">
         <header className="py-2 px-6 bg-slate-600 text-white font-bold text-2xl">Categoria</header>
-        <p className="p-8 text-3xl bg-white h-full">{categoria.tipo}</p>
+        <p className="p-8 text-3xl bg-white h-full">{categoria.nome}</p>
         <div className="flex">
           <button className="text-slate-100 bg-red-400 hover:bg-red-600 w-full py-2" onClick={retornar}>
             Não
