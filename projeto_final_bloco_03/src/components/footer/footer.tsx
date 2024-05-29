@@ -7,13 +7,13 @@ function Footer() {
           <p>Acesse nossas Redes Socias!</p>
         </div>
         <div className="flex flex-row">
-          <a href="">
+          <a href="https://linkedin.com">
             <img src="./src/assets/images/linkedin-logo.svg" alt="" />
           </a>
-          <a href="">
+          <a href="https://instagram.com">
             <img src="./src/assets/images/instagram-logo.svg" alt="" />
           </a>
-          <a href="">
+          <a href="https://github.com/PamelaZuni">
             <img src="./src/assets/images/github-logo.svg" alt="" />
           </a>
         </div>
