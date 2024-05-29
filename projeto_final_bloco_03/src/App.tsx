@@ -1,12 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import Footer from "./components/footer/footer";
+import Navbar from "./components/navbar/navbar";
+import Home from "./pages/home/Home";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <Navbar />
+      <div className="min-h-[80vh]">
+        <Home />
+      </div>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
